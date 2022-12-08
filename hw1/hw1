@@ -1,0 +1,11 @@
+#!/bin/bash
+
+site="https://ynetnews.com/category/3082"
+
+# add [-o] flag for not printing to file.
+# flag for read html
+# send stderr to tresh
+data=$(wget --no-check-certificate -o -  $site 2>/dev/null)
+re_site="https://ynetnews.com/article/[0-9A-Za-z]+"
+
+grep -E -o $re_site  

@@ -1,0 +1,4 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S "/Users/michaelpoliakov/Library/Mobile Documents/com~apple~CloudDocs/Technion/44101/hw0" -B "/Users/michaelpoliakov/Library/Mobile Documents/com~apple~CloudDocs/Technion/44101/hw0/cmake-build-debug"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/michaelpoliakov/Library/Mobile Documents/com~apple~CloudDocs/Technion/44101/hw0/cmake-build-debug
